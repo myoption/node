@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "5f6b5f0678f07c2f40a0d690"
+  },
+  "name": "nodejs",
+  "author": "heima",
+  "isPublished": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6be72fb667084280d7783d"
+  },
+  "name": "nodejs",
+  "author": "heima",
+  "isPublished": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6be72fb667084280d7783e"
+  },
+  "name": "javaScript",
+  "author": "heima",
+  "isPublished": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f6be838f479c629bc0ea80c"
+  },
+  "name": "promise",
+  "author": "heima",
+  "isPublished": true,
+  "__v": 0
+}]
