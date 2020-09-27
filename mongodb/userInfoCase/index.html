@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin: 50px auto;
+        width: 80%;
+        height: 400px;
+      }
+      .container a {
+        display: block;
+        text-decoration: none;
+        width: 80px;
+        height: 40px;
+        background-color: rgb(105, 97, 151);
+        text-align: center;
+        color: #fff;
+        line-height: 40px;
+      }
+      .container .btn {
+        display: inline-block;
+        width: 40px;
+      }
+      .container .delete {
+        background-color: red;
+      }
+      .container .modify {
+        background-color: blueviolet;
+      }
+      .container table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .container thead td {
+        background-color: cadetblue;
+      }
+      .container td {
+        width: 250px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h4>
+        <a class="addUser" target="blank" href="./addUser.html">添加用户</a>
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <td>姓名</td>
+            <td>爱好</td>
+            <td>年龄</td>
+            <td>邮箱</td>
+            <td>操作</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>

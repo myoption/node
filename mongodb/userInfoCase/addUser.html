@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 50%;
+        margin: 0 auto;
+        background-color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <h3>添加用户</h3>
+        <h5>用户名</h5>
+        <input type="text" placeholder="请填写用户名" name="name" />
+        <h5>密码</h5>
+        <input type="password" placeholder="请填写密码" name="password" />
+        <h5>年龄</h5>
+        <input type="text" placeholder="请填写年龄" name="age" />
+        <h5>邮箱</h5>
+        <input type="text" placeholder="请填写邮箱" name="email" />
+        <h5>请选择爱好</h5>
+        <input
+          type="checkbox"
+          name="hobbies"
+          id=""
+          value="football"
+          class="hobbies"
+        />足球<input
+          type="checkbox"
+          name="hobbies"
+          id=""
+          value="biking"
+          class="hobbies"
+        />单车<input
+          type="checkbox"
+          name="hobbies"
+          id=""
+          value="traveling"
+          class="hobbies"
+        />旅行
+        <h3><button type="submit">提交</button></h3>
+      </form>
+    </div>
+    <script>
+      let fonds = document.querySelectorAll(".hobbies");
+      // console.log(fonds);
+      let hobby = [];
+      for (let i = 0; i < fonds.length; i++) {
+        if (hobby.include(fonds[i])) {
+          fonds[i].style.checked = "true";
+        }
+      }
+    </script>
+  </body>
+</html>
