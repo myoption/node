@@ -1,0 +1,17 @@
+.container {
+  margin: 100px 500px;
+  background-color: #999;
+}
+.border {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #666;
+  padding: 0 1%;
+}
+.border .long {
+  width: 98%;
+}
+.border button {
+  background-color: green;
+  color: #fff;
+}

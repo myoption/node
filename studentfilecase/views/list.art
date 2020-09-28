@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/add.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h4>
+        <a class="addUser" target="blank" href="./addUser.html">添加用户</a>
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <td>姓名</td>
+            <td>爱好</td>
+            <td>年龄</td>
+            <td>邮箱</td>
+            <td>学院</td>
+            <td>性别</td>
+            <td>操作</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
