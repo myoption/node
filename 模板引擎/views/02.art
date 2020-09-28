@@ -1,0 +1,5 @@
+{{each users}}{{$value.name}}{{$value.age}}{{/each}}
+
+<%for (let i =0;i< users.length;i++){%> 
+<%=users[i].name%><%=users[i].age%>
+<%}%>

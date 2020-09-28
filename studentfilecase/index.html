@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin: 100px 500px;
+        background-color: #999;
+      }
+      .border {
+        width: 90%;
+        margin-left: 5%;
+        border: 1px solid #666;
+        padding: 0 1%;
+      }
+      .border .long {
+        width: 98%;
+      }
+      .border button {
+        background-color: green;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h3>学生档案</h3>
+        <div class="border">
+          <h4>姓名：</h4>
+          <input
+            type="text"
+            placeholder="请输入姓名"
+            name="name"
+            class="long"
+          />
+          <h4>年龄：</h4>
+          <input
+            type="text"
+            name="age"
+            id=""
+            placeholder="请输入年龄"
+            class="long"
+          />
+          <h4>
+            性别：<input type="radio" name="sex" id="" value="男" />男
+            <input type="radio" name="sex" id="" value="女" />女
+          </h4>
+          <h4>邮箱地址：</h4>
+          <input
+            type="email"
+            name="email"
+            id=""
+            placeholder="请输入邮箱"
+            class="long"
+          />
+          <h4>
+            爱好：<input type="checkbox" name="hobbies" id="" />敲代码
+            <input type="checkbox" name="hobbies" id="" />打篮球
+            <input type="checkbox" name="hobbies" id="" />睡觉
+          </h4>
+          <h4>所属学院：</h4>
+          <select name="college" id="" class="long">
+            <option value="计算机学院" selected>计算机学院</option>
+            <option value="体育学院">体育学院</option>
+            <option value="外语学院">外语学院</option>
+          </select>
+          <h4>入学日期：</h4>
+          <input type="date" name="date" id="" class="long" />
+          <h4><button type="submit" class="long">提交</button></h4>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
