@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h4>
-        <a class="addUser" target="blank" href="./addUser.html">添加用户</a>
+        <a class="addUser" target="blank" href="./add">添加用户</a>
       </h4>
       <table>
         <thead>
@@ -23,7 +23,20 @@
             <td>操作</td>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+        
+        {{each student}} 
+        <tr>
+          <td>{{$value.name}}</td>
+          <td>{{$value.hobbies}}</td>
+          <td>{{$value.age}}</td>
+          <td>{{$value.email}}</td>
+          <td>{{$value.college}}</td>
+          <td>{{$value.sex}}</td>
+        </tr>
+        {{/each}}
+        
+        </tbody>
       </table>
     </div>
   </body>

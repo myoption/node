@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <form action="">
+      <form action="/add" method="post">
         <h3>学生档案</h3>
         <div class="border">
           <h4>姓名：</h4>
@@ -39,9 +39,9 @@
             class="long"
           />
           <h4>
-            爱好：<input type="checkbox" name="hobbies" id="" />敲代码
-            <input type="checkbox" name="hobbies" id="" />打篮球
-            <input type="checkbox" name="hobbies" id="" />睡觉
+            爱好：<input type="checkbox" name="hobbies" id="" value="敲代码"/>敲代码
+            <input type="checkbox" name="hobbies" id="" value="打篮球"/>打篮球
+            <input type="checkbox" name="hobbies" id="" value="睡觉"/>睡觉
           </h4>
           <h4>所属学院：</h4>
           <select name="college" id="" class="long">

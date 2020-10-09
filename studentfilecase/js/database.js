@@ -12,14 +12,8 @@ const studentSchema = new mongoose.Schema({
     enum: ["男", "女"],
   },
   email: String,
-  hobbies: {
-    type: [String],
-    enum: ["敲代码", "打篮球", "睡觉"],
-  },
-  college: {
-    type: [String],
-    enum: ["计算机学院", "体育学院", "外语学院"],
-  },
+  hobbies: [String],
+  college: String,
   date: {
     type: Date,
     default: Date.now,
